@@ -1,5 +1,5 @@
 {
-  "name": "resapitotti",
+  "name": "restapi",
   "version": "1.0.0",
   "description": "rest api menggunakan express.js",
   "main": "app.js",
@@ -16,7 +16,7 @@
     "express",
     "mongodb"
   ],
-  "author": "totti999",
+  "author": "Ramanda MD",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/totti999/tulisAja-restapi/issues"
@@ -24,6 +24,7 @@
   "homepage": "https://github.com/totti999/tulisAja-restapi#readme",
   "dependencies": {
     "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
     "dotenv": "^16.0.3",
     "express": "^4.18.2",
     "mongoose": "^7.2.0",
