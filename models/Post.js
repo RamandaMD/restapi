@@ -23,7 +23,8 @@ const postSchema = mongoose.Schema({
         required: true
     }
 
-
+},{
+    versionKey: false
 })
 
 module.exports = mongoose.model('Post', postSchema, 'post')
